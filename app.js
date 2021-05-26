@@ -21,5 +21,5 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=5
 
 })
 
-.catch(err => alert("City name does not exist in databse!"));
+.catch(err => alert("City name does not exist in database!"));
 })
